@@ -1,0 +1,65 @@
+body{
+    font-family:Ariel;
+    background-color: azure;
+}
+p{
+    font-size: 18px;
+    color: rgb(41, 41, 141);
+}
+
+   
+#titulo{
+    font-size: 40px;
+    text-align: center;
+    
+}
+.cajaPrincipal{
+    width: 400px;
+    margin: auto;
+}
+#check{
+    display:none ;
+}
+.cajaPrincipal label{
+    background-color: #33abcb;
+    padding:5px;
+}
+.cajaPrincipal div img{
+    width: 400px;
+    margin-top: 20px;
+}
+.cajaPrincipal div{
+    height: 0;
+    overflow: hidden;
+    transition:all 2s linear;
+    
+}
+.cajaPrincipal label:active{
+background-color: red;
+}
+.cajaPrincipal #check:checked ~div{
+    height: 400px;
+}
+
+
+
+h1{
+    font-size: 20px;
+    color: blueviolet;
+}
+
+h2{
+    color: blue;
+}
+h3{
+    color: blue;
+}
+ul{
+    color: rgb(41, 41, 141);
+}
+img{
+    margin: 10px;
+    width: 400px;
+    height: auto;
+   
+}
